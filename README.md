@@ -2,7 +2,7 @@
 
 La Arquitectura Orientada a Servicios (SOA, Service-Oriented Architecture) es un enfoque de diseño de software que permite a las aplicaciones utilizar servicios distribuidos de manera flexible e independiente. Su principal objetivo es garantizar la interoperabilidad entre diferentes sistemas y tecnologías, facilitando la reutilización y escalabilidad.
 
-**Principios clave de SOA:**
+## Principios clave de SOA:##
 - **Modularidad:**  Las aplicaciones se dividen en servicios independientes que pueden ser utilizados por otros sistemas.
 - **Interoperabilidad:** Usa estándares abiertos (como SOAP, REST, XML, JSON) para que los servicios puedan comunicarse entre sí, sin importar el lenguaje de programación o plataforma.
 - **Reutilización:** Los servicios pueden ser utilizados por múltiples aplicaciones sin necesidad de reescribir código.
@@ -16,18 +16,16 @@ La Arquitectura Orientada a Servicios (SOA, Service-Oriented Architecture) es un
 - **Repositorio de Servicios:** Base de datos que almacena y gestiona los servicios disponibles.
 - **Clientes:** Aplicaciones o sistemas que consumen los servicios.
 
-Ventajas de SOA:
+## Ventajas de SOA: ## 
+- Mejora la integración entre sistemas heterogéneos.
+- Facilita el mantenimiento y escalabilidad de aplicaciones.
+- Reduce costos al reutilizar servicios.
+- Mejora la agilidad en la adaptación a cambios empresariales.
 
-✔ Mejora la integración entre sistemas heterogéneos.
-✔ Facilita el mantenimiento y escalabilidad de aplicaciones.
-✔ Reduce costos al reutilizar servicios.
-✔ Mejora la agilidad en la adaptación a cambios empresariales.
-
-Desventajas de SOA:
-
-✖ Mayor complejidad en la implementación.
-✖ Puede generar sobrecarga en la comunicación debido a protocolos estándar.
-✖ Requiere una buena gobernanza para evitar redundancia o problemas de seguridad.
+## Desventajas de SOA: ##
+- Mayor complejidad en la implementación.
+- Puede generar sobrecarga en la comunicación debido a protocolos estándar.
+- Requiere una buena gobernanza para evitar redundancia o problemas de seguridad.
 
 SOA ha evolucionado y hoy en día se complementa o es reemplazada por arquitecturas basadas en microservicios, que ofrecen mayor flexibilidad y escalabilidad en entornos modernos.
 
@@ -46,4 +44,3 @@ Un Enterprise Service Bus (ESB) es una infraestructura de software que actúa co
 -**Apache Camel:** Ligero y flexible, ideal para integraciones complejas.
 -**Mule ESB:** Muy utilizado en entornos empresariales para integraciones robustas.
 -**WSO2 ESB:** Open-source y altamente escalable.
-
